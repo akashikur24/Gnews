@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 1024px) {
+  .navresponsive {
+    display: flex;
+    position: absolute;
+    z-index: 20;
+  }
+}
